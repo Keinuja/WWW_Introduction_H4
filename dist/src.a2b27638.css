@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background-color: #eceff1;
+}
+
+.show-data {
+  width: 100%;
+  background-color: #cfd8dc;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: green;
+}
+
+h1.show-data {
+  text-align: center;
+}
+
+image.show-data {
+  display: block;
+}
+
+@media only screen and (min-width: 800px) {
+  .show-data {
+    display: flex;
+  }
+  .show-info {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  image.show-data {
+    margin: auto;
+  }
+  p.show-info {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
